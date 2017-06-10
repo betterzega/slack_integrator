@@ -25,7 +25,7 @@ class EmojifyController < ApplicationController
       text: response_text,
       attachments: [
         {
-          image_url: 'https://www.betterment.com/wp-content/themes/foley/images/backgrounds/family_laughing_on_couch.jpg'
+          image_url: 'http://bmt-slack-integration.herokuapp.com/emojify?image_url=https://www.betterment.com/wp-content/themes/foley/images/backgrounds/family_laughing_on_couch.jpg'
         }
       ]
     }
